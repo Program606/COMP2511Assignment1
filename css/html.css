@@ -3,6 +3,15 @@ a multi-linecomment */
 
 
 p {
-    color: rgb(235, 195, 63);
+    color: #577467;
   }
 
+section{
+
+  background-color:#CCE3DE;
+
+}
+
+body{
+    background-color:#EAF4F4;
+}
