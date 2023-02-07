@@ -1,11 +1,17 @@
 /* This is
 a multi-linecomment */
 
+header{
+
+background-color: #6B9080;
+text-align: center;
+padding: 30px;
+
+}
 
 p {
     color: #000000;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 50px;
   }
 
 section{
@@ -13,7 +19,7 @@ section{
     background-color:#CCE3DE;
     font-size: 20px;
     width: 65%;
-    margin-top: 10px; 
+    margin:10px; 
 
   }
 
@@ -21,7 +27,7 @@ article{
 
     background-color:#CCE3DE;
     font-size: 20px;
-    margin-top: 10px;
+    margin: 10px;
     box-sizing: border-box;
     width: 65%
 
@@ -47,6 +53,6 @@ aside {
 footer{
     background-color:#7eac98;
     text-align: center;
-    padding-bottom: 5px;
+    padding: 30px;
 
 }
