@@ -3,15 +3,48 @@ a multi-linecomment */
 
 
 p {
-    color: #577467;
+    color: #000000;
   }
 
 section{
 
-  background-color:#CCE3DE;
+    background-color:#CCE3DE;
+    font-size: 20px;
+    width: 65%
+    
+
+  }
+
+article{
+
+    background-color:#CCE3DE;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 65%
 
 }
 
 body{
+
     background-color:#EAF4F4;
+
+}
+
+aside {
+  width: 30%;
+  padding-left: 10px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+  
+}
+
+footer{
+    background-color:#7eac98;
+    text-align: center;
+    padding-bottom: 5px;
+
 }
