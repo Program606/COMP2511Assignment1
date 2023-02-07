@@ -4,14 +4,16 @@ a multi-linecomment */
 
 p {
     color: #000000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
 section{
 
     background-color:#CCE3DE;
     font-size: 20px;
-    width: 65%
-    
+    width: 65%;
+    margin-top: 10px; 
 
   }
 
@@ -19,7 +21,7 @@ article{
 
     background-color:#CCE3DE;
     font-size: 20px;
-    padding: 5px;
+    margin-top: 10px;
     box-sizing: border-box;
     width: 65%
 
