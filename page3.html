@@ -6,6 +6,7 @@
         <meta name = "author" content = "Kaydence Eng, Prince Manzano">
         <meta name = "description" content = "CONTENT">
         <meta name = "keywords" content = "CONTENT">
+        <title>The last page</title>
     </head>
     <body>
         <main>
@@ -34,18 +35,58 @@
         <h2>Contact Us!</h2>
         <fieldset>
             <legend>Extras</legend>
-            <dl>
+            
+                <dl>
+                    <dt><label>Input box</label></dt>
+                    <dd> <!-- Use of information for input text: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input-->
+                        <input type="text" placeholder="The character limit is 250"maximum="250" required>
+                    </dd>
+
+
+                    <dt><label>Comments</label></dt>
+
+                    <dd>
+                        <p><textarea placeholder="Any comments?" required></textarea></p>
+                    </dd>
                 
-                <dt><label>Comments</label></dt>
-                
-                <dd>
-                    <p><textarea placeholder="Any comments?" required></textarea></p>
-                <dd>
-                
+
                     <dt><label>Email</label></dt>
-                    <p><input type="email" placeholder="something@gmail.com" pattern=".gmail\.ca" required></input></p>
-                </dd>
-            </dl>
+                    <dd>
+                        <p><input type="email" placeholder="JohnDoe@gmail.com" pattern=".gmail\.ca" required></p>
+                    </dd>
+
+                    <dt><label>Phone Number</label></dt>
+                    <dd>
+                        <p><input type="tele" placeholder="991-998-9100"></p>
+                    </dd>
+                    <dt><label>Radio Buttons</label></dt>
+                    <dd>
+                        <p>
+                        <input type="radio" id="button1" name="singleOrNo" value="Single">
+                        <label for="button1" name="singleOrNo">Single?</label>
+
+                        <input type="radio" id="button2" name="singleOrNo" value="Relationship">
+                        <label for="button2" name="singleOrNo">Relationship</label>
+                        </p>
+                    </dd>
+
+                    <dt><label>Checkboxes</label></dt>
+                    <dd>
+                        <p>
+                        <input type="checkbox" id="knowALanguage" name="checbox1" value="knowALanguage">
+                        <label for="knowALanguage">Do you know a Programming Language?</label>
+
+                        <input type="checkbox" id="majorConnected" value="yesMyMajorConnected" name="checkbox2">
+                        <label for="majorConnected">Is your major related to Coding?</label>
+                        </p>
+                    </dd>
+                    <p>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    </p>
+
+
+                </dl>
         </fieldset>
 
         <footer>&copy; COMPANY NAME, 2023</footer>
