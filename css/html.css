@@ -47,7 +47,9 @@ aside {
   float: right;
   font-style: italic;
   background-color: lightgray;
-  
+  /* Don't forget that our padding, font, and marging should be consistent
+  on all 3 pages. You can choose if you want and I could follow you.
+  */
 }
 
 footer{
