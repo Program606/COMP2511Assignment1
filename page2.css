@@ -1,0 +1,52 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width:100%;
+}
+tr:nth-child(2n){
+    background-color: rgb(150, 143, 143);
+}
+
+
+/* Use of information for the design of nav bar and table https://www.w3schools.com/css/css_navbar_horizontal.asp and https://www.w3schools.com/html/html_tables.asp*/
+li{ 
+    display:inline; /**/
+    float: left; /*Makes the block elemets float next to each other*/
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7eac98;
+}
+a{
+    display:block;
+    padding: 8px;
+    background-color:#7eac98;
+}
+nav{
+    background-color: #CCE3DE;
+}
+a:hover{
+    background-color: #6B9080;
+}
+section p{
+    width:400px;
+    border: 50px;
+    padding: 25px;;
+    margin: 20px;
+    background-color: #CCE3DE;
+}
+aside{ /* Secondary content, dont need main to understand*/
+    width:400px;
+    border: 50px;
+    padding: 25px;;
+    margin: 20px;
+    background-color: lightgray; 
+}
+body{
+    background-color: #EAF4F4;
+}
