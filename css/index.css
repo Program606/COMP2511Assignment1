@@ -9,6 +9,25 @@ padding: 30px;
 
 }
 
+
+a{
+
+  padding: 8px;
+
+}
+
+li{ 
+  display:inline; /**/
+  float: center; /*Makes the block elemets float next to each other*/
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 p {
     color: #000000;
     margin: 50px;
