@@ -19,7 +19,8 @@ section{
     background-color:#CCE3DE;
     font-size: 20px;
     width: 65%;
-    margin:10px; 
+    margin: 20px; 
+    padding: 5px;
 
   }
 
@@ -27,8 +28,8 @@ article{
 
     background-color:#CCE3DE;
     font-size: 20px;
-    margin: 10px;
-    box-sizing: border-box;
+    margin: 20px;
+    padding: 5px;
     width: 65%
 
 }
@@ -51,6 +52,7 @@ aside {
   on all 3 pages. You can choose if you want and I could follow you.
   */
 }
+
 
 footer{
     background-color:#7eac98;
