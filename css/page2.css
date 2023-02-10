@@ -1,72 +1,80 @@
-
-/* Colors from https://paletton.com/export/index.php
-As hex codes */
-
-.color-primary-0 { color: #FFCA6D }	/* Main Primary color */
-.color-primary-1 { color: #C47D00 }
-.color-primary-2 { color: #F6AD2C }
-.color-primary-3 { color: #FFE4B4 }
-.color-primary-4 { color: #FFFDFA }
-
-
-
-/* As RGBa codes */
-
-.rgba-primary-0 { color: rgba(255,202,109,1) }	/* Main Primary color */
-.rgba-primary-1 { color: rgba(196,125,  0,1) }
-.rgba-primary-2 { color: rgba(246,173, 44,1) }
-.rgba-primary-3 { color: rgba(255,228,180,1) }
-.rgba-primary-4 { color: rgba(255,253,250,1) }
+/* colour palette from: https://coolors.co/palette/6b9080-a4c3b2-cce3de-eaf4f4-f6fff8 */
 
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
 }
+
 table{
     width:100%;
 }
-tr:nth-child(2n){
-    background-color: rgba(255,202,109,1);
-}
 
+tr:nth-child(2n){
+    background-color: #6B9080;
+}
 
 /* Use of information for the design of nav bar and table https://www.w3schools.com/css/css_navbar_horizontal.asp and https://www.w3schools.com/html/html_tables.asp*/
 li{ 
     display:inline; /**/
-    float: left; /*Makes the block elemets float next to each other*/
+    float: center; /*Makes the block elemets float next to each other*/
 }
+
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(255,202,109,1) ;
+    
 }
+
 a{
-    display:block;
     padding: 8px;
-    background-color:rgba(255,202,109,1);
 }
+
+header{
+
+    background-color: #6B9080;
+    text-align: center;
+    padding: 50px;
+
+}
+
 nav{
-    background-color: rgba(255,228,180,1);
+
+    text-align: center;
+    background-color: rgb(153, 148, 119);
+    padding: 20px;
+
 }
+
 a:hover{
-    background-color: #C47D00 ;
+
+    background-color: rgb(133, 128, 100);
+    
 }
+
 section p{
     width:400px;
     border: 50px;
     padding: 25px;;
     margin: 20px;
-    background-color: rgba(255,228,180,1);
+    background-color: #CCE3DE;
 }
+
 aside{ /* Secondary content, dont need main to understand*/
     width:400px;
     border: 50px;
     padding: 25px;;
     margin: 20px;
-    background-color: rgba(255,202,109,1); 
+    background-color: lightgray; 
 }
+
 body{
-    background-color: rgba(255,253,250,1);
+    background-color: #EAF4F4;
+}
+
+footer{
+    background-color:#7eac98;
+    text-align: center;
+    padding: 30px;
 }
