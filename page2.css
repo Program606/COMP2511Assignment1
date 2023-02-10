@@ -26,69 +26,47 @@ table{
     width:100%;
 }
 tr:nth-child(2n){
-    /* background-color: rgba(255,202,109,1); */
-    background-color: #CCE3DE
+    background-color: rgba(255,202,109,1);
 }
 
 
 /* Use of information for the design of nav bar and table https://www.w3schools.com/css/css_navbar_horizontal.asp and https://www.w3schools.com/html/html_tables.asp*/
 li{ 
     display:inline; /**/
-    float: center; /*Makes the block elemets float next to each other*/
+    float: left; /*Makes the block elemets float next to each other*/
 }
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color: rgba(255,202,109,1) ; */
+    background-color: rgba(255,202,109,1) ;
 }
 a{
-    /* display:block; */
+    display:block;
     padding: 8px;
-    /* background-color:rgba(255,202,109,1); */
-    
-}
-header{
-
-    background-color: #6B9080;
-    text-align: center;
-    padding: 30px;
-
+    background-color:rgba(255,202,109,1);
 }
 nav{
-    /* background-color: rgba(255,228,180,1); */
-    background-color: #6B9080;
+    background-color: rgba(255,228,180,1);
 }
 a:hover{
-    /* background-color: #C47D00 ; */
-    background-color: #A4C3B2;
+    background-color: #C47D00 ;
 }
 section p{
     width:400px;
     border: 50px;
     padding: 25px;;
     margin: 20px;
-    /* background-color: rgba(255,228,180,1); */
-    background-color: #CCE3DE;
+    background-color: rgba(255,228,180,1);
 }
 aside{ /* Secondary content, dont need main to understand*/
     width:400px;
     border: 50px;
     padding: 25px;;
     margin: 20px;
-    /* background-color: rgba(255,202,109,1);  */
-    background-color: #A4C3B2;
+    background-color: rgba(255,202,109,1); 
 }
 body{
-    /* background-color: rgba(255,253,250,1); */
-    background-color:#EAF4F4;
-}
-
-footer{
-
-    background-color:#7eac98;
-    text-align: center;
-    padding: 30px;
-
+    background-color: rgba(255,253,250,1);
 }
