@@ -87,8 +87,12 @@ th, td{
     font-size: x-large;
 }
 p::first-letter{
-    color: rgb(173, 11, 173);
+    font-weight: bold;
+    size: 10em;
 }
 h1{
     font-size: x-large;
+}
+a[href*="#Graph"]{
+    color: beige;
 }
