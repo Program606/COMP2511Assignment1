@@ -36,6 +36,7 @@ header{
     background-color: #6B9080;
     text-align: center;
     padding: 50px;
+    font-size: x-large;
 
 }
 
@@ -44,6 +45,7 @@ nav{
     text-align: center;
     background-color: rgb(153, 148, 119);
     padding: 20px;
+    font-size: x-large;
 
 }
 
@@ -54,19 +56,21 @@ a:hover{
 }
 
 section p{
-    width:400px;
+    width:1200px;
     border: 50px;
     padding: 25px;;
     margin: 20px;
     background-color: #CCE3DE;
+    font-size: x-large;
 }
 
-aside{ /* Secondary content, dont need main to understand*/
-    width:400px;
+article{ /* content that can be removed and still makes sense*/
+    width: 1200px;
     border: 50px;
     padding: 25px;;
     margin: 20px;
     background-color: lightgray; 
+    font-size: x-large;
 }
 
 body{
@@ -77,4 +81,14 @@ footer{
     background-color:#7eac98;
     text-align: center;
     padding: 30px;
+    font-size: x-large;
+}
+th, td{
+    font-size: x-large;
+}
+p::first-letter{
+    color: rgb(173, 11, 173);
+}
+h1{
+    font-size: x-large;
 }
