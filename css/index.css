@@ -19,11 +19,11 @@ nav{
 
 a{
 
-  padding: 8px;
+  padding: 10px;
 
 }
 
-a:hover{
+.navLinks:hover{
 
   background-color: rgb(170, 221, 204);
 
