@@ -36,7 +36,7 @@ header{
     background-color: #6B9080;
     text-align: center;
     padding: 50px;
-    font-size: x-large;
+    
 
 }
 
@@ -45,7 +45,7 @@ nav{
     text-align: center;
     background-color: rgb(153, 148, 119);
     padding: 20px;
-    font-size: x-large;
+    
 
 }
 
@@ -83,16 +83,16 @@ footer{
     padding: 30px;
     font-size: x-large;
 }
+
 th, td{
     font-size: x-large;
 }
+
 p::first-letter{
     font-weight: bold;
     size: 10em;
 }
-h1{
-    font-size: x-large;
-}
+
 a[href*="#Graph"]{
     color: beige;
 }

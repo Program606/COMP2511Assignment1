@@ -54,23 +54,11 @@ article{
 
 }
 
-/* aside{
-
-    width: 27%;
-    padding-left: 10px;
-    margin-left: 10px;
-    padding-bottom: 10px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-
-} */
-
 img{
 
     float:right;
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     margin: 10px;
 
 }

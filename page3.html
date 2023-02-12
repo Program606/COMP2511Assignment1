@@ -7,14 +7,16 @@
         <meta name = "description" content = "Contact page for the CodeCloset">
         <meta name = "keywords" content = "CodeClosest, codecloset, code closet, codecloset contact page, codecloset about us">
 
-        <link rel="stylesheet" href = "css/page3.css">
+        <link rel="stylesheet" href = "style/page3.css">
 
         <title>More about us!</title>
     </head>
     <body>
         <main>
         <header>
+        
             <h1>Curious for more?</h1>
+            
         </header>
 
         <nav>
@@ -25,67 +27,79 @@
         </nav>
         
         <article>
+
+        <h2>About Us!</h2>    
+        <!--Note: The text for this page was written and created by us, not an AI.-->
+
         <p>
-            <h2>About Us!</h2>
-
-            <img src = "images/authorKaydence.jpg">
-            <img src = "images/authorPrince.jpg">
-
-            Lorem Ipsum is simply dummy text of the printing and 
-            typesetting industry. Lorem Ipsum has been the industry's 
-            standard dummy text ever since the 1500s, when an unknown 
-            printer took a galley of type and scrambled it to make a 
-            type specimen book. It has survived not only five centuries, 
-            but also the leap into electronic typesetting, remaining 
-            essentially unchanged. It was popularised in the 1960s with 
-            the release of Letraset sheets containing Lorem Ipsum passages, 
-            and more recently with desktop publishing software like Aldus 
-            PageMaker including versions of Lorem Ipsum. Lorem Ipsum is 
-            simply dummy text of the printing and 
-            typesetting industry. Lorem Ipsum has been the industry's 
-            standard dummy text ever since the 1500s, when an unknown 
-            printer took a galley of type and scrambled it to make a 
-            type specimen book. It has survived not only five centuries, 
-            but also the leap into electronic typesetting, remaining 
-            essentially unchanged. It was popularised in the 1960s with 
-            the release of Letraset sheets containing Lorem Ipsum passages, 
-            and more recently with desktop publishing software like Aldus 
-            PageMaker including versions of Lorem Ipsum. 
             
-            <h3>Our Story</h3>
+            <img src = "images/authorKaydence.jpg" alt="Author: Kaydence Eng" title = "Kaydence Eng">
+            <img src = "images/authorPrince.jpg" alt="Author: Prince Manzano" title = "Prince Manzano">
+        
 
-            Lorem Ipsum is simply dummy text of the printing and 
-            typesetting industry. Lorem Ipsum has been the industry's 
-            standard dummy text ever since the 1500s, when an unknown 
-            printer took a galley of type and scrambled it to make a 
-            type specimen book. It has survived not only five centuries, 
-            but also the leap into electronic typesetting, remaining 
-            essentially unchanged. It was popularised in the 1960s with 
-            the release of Letraset sheets containing Lorem Ipsum passages, 
-            and more recently with desktop publishing software like Aldus 
-            PageMaker including versions of Lorem Ipsum. Lorem Ipsum is 
-            simply dummy text of the printing and 
-            typesetting industry. Lorem Ipsum has been the industry's 
-            standard dummy text ever since the 1500s, when an unknown 
-            printer took a galley of type and scrambled it to make a 
-            type specimen book. It has survived not only five centuries, 
-            but also the leap into electronic typesetting, remaining 
-            essentially unchanged. It was popularised in the 1960s with 
-            the release of Letraset sheets containing Lorem Ipsum passages, 
-            and more recently with desktop publishing software like Aldus 
-            PageMaker including versions of Lorem Ipsum. 
+            The CodeCloset is the perfect guide for beginners looking to code. 
+            We provide guides to common coding languages, as well as, more detailed
+            support if you choose to contact us. Currently, the website is ran by the
+            two of us, Kaydence Eng and Prince Manzano. You can see our lovely faces to the 
+            right of the screen. You can hover the image to learn who's who (the crown should be a dead giveaway ;) ).
+            Our websites not only serves as a guide for our users, but as a journal for the two
+            of us as to share our coding journey. 
+        </p>
+
+        <p>  
+            <h2>Our Story</h2>
+
+            We began this website when we first started learning how to code.
+            Many resources exist out there to guide beginners in their coding journey,
+            yet it was spread out everywhere. That's where we come in. We wanted to make one 
+            master site that anyone can refer to when they want to start coding. Helping 
+            others with their coding is key to our site's mission, however, we also want to
+            educate people on how code came to the place it's at today. Hence, we also 
+            share knowledge regarding the history of code. Our site also provides 
+            information surrounding the current atmopshere of the coding world such 
+            as which languages are the most popular. Also, we found that a brief overview of the world of coding was 
+            beneficial when we first started, so we offer the same when users first 
+            visit our site. There are always people who are eager to code, but aren't 
+            too sure what it might entail, so we also provide guidance in that regard.
+            The CodeCloset in your one stop place for all coding beginners out there!
+        </p>
+    
+        <p>
+            
+            Want to learn more? Or maybe join our team? Fill out the form below and
+            we'll get back to you! 
 
         </p>
+
         </article>
 
         <article>
         <form id="formOne" method="post" action="mailto:    @mtroyal.ca"> <!--CHECK WITH KAYDENCE-->
         <h2>Contact Us!</h2>
+
         <fieldset>
-            <legend>Extras</legend>
+            
+            <legend>Personal Information</legend>
+                <dl>
+                    <dt><label>Email*</label></dt>
+                    <dd> <!-- Resource of information: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email-->
+                        <p><input type="email" placeholder="Jsmit@mtroyal.ca" pattern=".+@mtroyal\.ca" required></p>
+                    </dd>
+
+                    <dt><label>Phone Number</label></dt>
+                    <dd>
+                        <p><input type="tele" placeholder="991-998-9100"></p>
+                    </dd>
+                    
+                </dl>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Request Information</legend>
             
                 <dl>
-                    <dt><label>Input box*</label></dt>
+                    <dt><label>Reason for contacting us.*</label></dt>
                     <dd> <!-- Use of information for input text: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input-->
                         <input type="text" placeholder="The character limit is 250"maximum="250" required>
                     </dd>
@@ -97,16 +111,13 @@
                         <p><textarea placeholder="Any comments?" required></textarea></p>
                     </dd>
                 
+                </dl>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Extras</legend>
+                <dl>
 
-                    <dt><label>Email*</label></dt>
-                    <dd> <!-- Resource of information: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email-->
-                        <p><input type="email" placeholder="Jsmit@mtroyal.ca" pattern=".+@mtroyal\.ca" required></p>
-                    </dd>
-
-                    <dt><label>Phone Number</label></dt>
-                    <dd>
-                        <p><input type="tele" placeholder="991-998-9100"></p>
-                    </dd>
                     <dt><label>Do you want to receive regular updates from us?</label></dt>
                     <dd>
                         <p>
@@ -118,29 +129,30 @@
                         </p>
                     </dd>
 
-                    <dt><label>Checkboxes</label></dt>
+                    <dt><label>Coding Experience</label></dt>
                     <dd>
                         <p>
                         <input type="checkbox" id="knowALanguage" name="checbox1" value="knowALanguage">
                         <label for="knowALanguage">Do you know a Programming Language?</label>
 
                         <input type="checkbox" id="majorConnected" value="yesMyMajorConnected" name="checkbox2">
-                        <label for="majorConnected">Is your major related to coding?</label>
+                        <label for="majorConnected">Are you currently enrolled in coding classes?</label>
                         </p>
                     </dd>
-                    <p>
-                    <input type="submit" value="Submit">
-                    <input type="reset" value="Reset">
-                    </p>
-
 
                 </dl>
                 
         </fieldset>
+
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+
         </form>
         </article>
 
-        <footer>&copy; COMPANY NAME, 2023</footer>
+        <footer>&copy; CODECLOSET, 2023</footer>
     
     </main>
     </body>
