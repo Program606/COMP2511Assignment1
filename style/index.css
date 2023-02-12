@@ -41,9 +41,9 @@ a{
 }
 
 ul{
-
+/**/
   list-style-type: none;
-  margin: 0;
+  /*margin: 0;*/
   padding: 0;
   overflow: hidden;
 
@@ -52,9 +52,9 @@ ul{
 section{
 
     background-color:#CCE3DE;
-    font-size: 20px;
+    /*font-size: 20px;*/
     width: 65%;
-    margin-bottom: 20px; 
+    /*margin-bottom: 20px; */
     padding: 5px;
 
   }
@@ -62,8 +62,8 @@ section{
 article{
 
     background-color:#CCE3DE;
-    font-size: 20px;
-    margin-bottom: 20px;
+    /*font-size: 20px;*/
+    /*margin-bottom: 20px;*/
     padding: 5px;
     width: 65%
 
@@ -80,11 +80,11 @@ aside {
   width: 30%;
   padding-left: 35px;
   padding-right: 35px;
-  margin-left: 10px;
+  /*margin-left: 10px;*/
   padding-bottom: 80px;
   float: right;
   background-color: lightgray;
-  font-size: 18px;
+  /*font-size: 18px;*/
   
   /* Don't forget that our padding, font, and marging should be consistent
   on all 3 pages. You can choose if you want and I could follow you.
@@ -93,7 +93,7 @@ aside {
 
 p{
     color: #000000;
-    margin: 50px;
+    /*margin: 50px;*/
    
 }
 
@@ -125,6 +125,6 @@ footer{
 figure{
 
   /* https://forum.freecodecamp.org/t/why-doesnt-figure-not-align-with-everything-else-by-default-just-curious/230765 */
-  margin: 0px;
+  /*margin: 0px;*/
 
 }

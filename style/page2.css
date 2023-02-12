@@ -21,7 +21,6 @@ li{
 
 ul{
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     
@@ -59,18 +58,15 @@ section p{
     width:1200px;
     border: 50px;
     padding: 25px;;
-    margin: 20px;
     background-color: #CCE3DE;
-    font-size: x-large;
+
 }
 
 article{ /* content that can be removed and still makes sense*/
     width: 1200px;
     border: 50px;
     padding: 25px;;
-    margin: 20px;
     background-color: lightgray; 
-    font-size: x-large;
 }
 
 body{
@@ -81,11 +77,6 @@ footer{
     background-color:#7eac98;
     text-align: center;
     padding: 30px;
-    font-size: x-large;
-}
-
-th, td{
-    font-size: x-large;
 }
 
 p::first-letter{
