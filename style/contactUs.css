@@ -10,7 +10,7 @@ nav{
 
     text-align: center;
     background-color: lightslategray;
-    padding: 15px;
+    padding: 20px;
 }
 
 li{ 
@@ -29,6 +29,18 @@ ul{
 body{
 
     background-color: #EAF4F4;
+
+}
+
+h1{
+
+    font-size:45px;
+
+}
+
+h2{
+
+    font-size: 35px;
 
 }
 
