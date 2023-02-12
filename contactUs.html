@@ -81,81 +81,84 @@
         </article>
 
         <article>
-        <form id="formOne" method="post" action="mailto:    @mtroyal.ca"> <!--CHECK WITH KAYDENCE-->
-        <h2>Contact Us!</h2>
+            <form id="formOne" method="post" action="mailto:keng030@mtroyal.ca"> <!--CHECK WITH KAYDENCE-->
+            <h2>Contact Us!</h2>
 
-        <fieldset>
-            
-            <legend>Personal Information</legend>
-                <dl>
-                    <dt><label>Email*</label></dt>
-                    <dd> <!-- Resource of information: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email-->
-                        <p><input type="email" placeholder="Jsmit@mtroyal.ca" pattern=".+@mtroyal\.ca" required></p>
-                    </dd>
+            <fieldset>
+                
+                <legend>Personal Information</legend>
+                    <dl>
+                        <dt><label>Name*</label></dt>
+                        <dd>
+                            <input name = "name" type = "text" size = "20" maxlength="150" placeholder="Last, First" required>
+                        </dd>
 
-                    <dt><label>Phone Number</label></dt>
-                    <dd>
-                        <p><input type="tel" placeholder="991-998-9100"></p>
-                    </dd>
+                        <dt><label>Email*</label></dt>
+                        <dd> <!-- Resource of information: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email-->
+                            <input name = "email" type="email" placeholder="name@mtroyal.ca" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                        </dd>
+
+                        <dt><label>Phone Number</label></dt>
+                        <dd>
+                            <input name = "phone" type="tel" placeholder="991-998-9100">
+                        </dd>
+                        
+                    </dl>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Request Information</legend>
+                
+                    <dl>
+                        <dt><label>Reason for contacting us.*</label></dt>
+                        <dd> <!-- Use of information for input text: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input-->
+                            <input name = "contactReason" type = "text" placeholder = "Character limit is 250" maxlength="250" required>
+                        </dd>
+
+
+                        <dt><label>Comments*</label></dt>
+
+                        <dd>
+                            <textarea name = "comments" placeholder = "Any comments?" required></textarea>
+                        </dd>
                     
-                </dl>
-
-        </fieldset>
-
-        <fieldset>
-            <legend>Request Information</legend>
+                    </dl>
+            </fieldset>
             
-                <dl>
-                    <dt><label>Reason for contacting us.*</label></dt>
-                    <dd> <!-- Use of information for input text: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input-->
-                        <input type="text" placeholder="The character limit is 250" maxlength="250" required>
-                    </dd>
+            <fieldset>
+                <legend>Extras</legend>
+                    <dl>
 
+                        <dt><label>Do you want to receive regular updates from us?</label></dt>
+                        <dd>
+                            
+                            <input name = "updateChecker" type="radio" id="button1" name="yesOrNo" value="Yes">
+                            <label for="button1">Yes</label>
 
-                    <dt><label>Comments*</label></dt>
+                            <input name = "updateChecker" type="radio" id="button2" name="yesOrNo" value="No">
+                            <label for="button2">No</label>
+                            
+                        </dd>
 
-                    <dd>
-                        <p><textarea placeholder="Any comments?" required></textarea></p>
-                    </dd>
-                
-                </dl>
-        </fieldset>
-        
-        <fieldset>
-            <legend>Extras</legend>
-                <dl>
+                        <dt><label>Coding Experience</label></dt>
+                        <dd>
+                            
+                            <input type="checkbox" id="knowALanguage" name="checbox1" value="knowALanguage">
+                            <label for="knowALanguage">Do you know a Programming Language?</label>
 
-                    <dt><label>Do you want to receive regular updates from us?</label></dt>
-                    <dd>
-                        <p>
-                        <input type="radio" id="button1" name="yesOrNo" value="Yes">
-                        <label for="button1">Yes</label>
+                            <input type="checkbox" id="majorConnected" value="yesMyMajorConnected" name="enrolledCoding">
+                            <label for="majorConnected">Are you currently enrolled in coding classes?</label>
+                            
+                        </dd>
 
-                        <input type="radio" id="button2" name="yesOrNo" value="No">
-                        <label for="button2">No</label>
-                        </p>
-                    </dd>
+                    </dl>
+                    
+            </fieldset>
 
-                    <dt><label>Coding Experience</label></dt>
-                    <dd>
-                        <p>
-                        <input type="checkbox" id="knowALanguage" name="checbox1" value="knowALanguage">
-                        <label for="knowALanguage">Do you know a Programming Language?</label>
-
-                        <input type="checkbox" id="majorConnected" value="yesMyMajorConnected" name="checkbox2">
-                        <label for="majorConnected">Are you currently enrolled in coding classes?</label>
-                        </p>
-                    </dd>
-
-                </dl>
-                
-        </fieldset>
-
-        <p>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
-        </p>
-
+                <input type = "reset">
+                <input type = "submit">
+            
         </form>
         </article>
         </section>
