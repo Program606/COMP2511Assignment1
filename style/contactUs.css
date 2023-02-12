@@ -15,7 +15,7 @@ nav{
 
 li{ 
     display:inline; /**/
-    float: center; /*Makes the block elemets float next to each other*/
+    /* float: center; Makes the block elemets float next to each other */
 }
   
 ul{

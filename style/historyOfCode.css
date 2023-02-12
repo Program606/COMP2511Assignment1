@@ -19,7 +19,7 @@ tr:nth-child(2n){
 /* Use of information for the design of nav bar and table https://www.w3schools.com/css/css_navbar_horizontal.asp and https://www.w3schools.com/html/html_tables.asp*/
 li{ 
     display:inline; /**/
-    float: center; /*Makes the block elemets float next to each other*/
+    /* float: center; Makes the block elemets float next to each other */
 }
 
 ul{
@@ -101,7 +101,7 @@ footer{
 
 p::first-letter{
     font-weight: bold;
-    size: 10em;
+    /* size: 10em; */
 }
 
 a[href*="#Graph"]{
