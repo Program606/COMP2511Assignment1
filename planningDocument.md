@@ -14,6 +14,8 @@ Please open me in github for the best view
     * third party links 
 
 ## Planning page 2 (historyOfCode.html) ##
+![Page 2 Image](./images/page2Planning.jpg "Page 2 Planning")
+
 
 * Content to include:   
     * Table about popular coding langauages
@@ -27,6 +29,8 @@ Please open me in github for the best view
 
 
 ## Planning page 3 (contactUs.html) ##
+![Page 3 Image](./images/page3Planning.jpg "Page 3 Planning")
+
 
 * Content to include:
     * About us section with author pictures
