@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang = "en">
+
     <head>
         <meta charset = "UTF-8">
 
@@ -12,6 +13,7 @@
 
         <title>More about us! - The CodeCloset</title>
     </head>
+
     <body>
         <main>
         <header>
@@ -54,7 +56,6 @@
         <h2>Our Story</h2>
 
         <p>  
-            
 
             We began this website when we first started learning how to code.
             Many resources exist out there to guide beginners in their coding journey,
@@ -69,6 +70,7 @@
             visit our site. There are always people who are eager to code, but aren't 
             too sure what it might entail, so we also provide guidance in that regard.
             The CodeCloset in your one stop place for all coding beginners out there!
+            
         </p>
     
         <p>
@@ -100,7 +102,7 @@
 
                         <dt><label>Phone Number</label></dt>
                         <dd>
-                            <input name = "phone" type="tel" placeholder="991-998-9100">
+                            <input name = "phone" type="tel" placeholder="991-998-9100" pattern = "[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}">
                         </dd>
                         
                     </dl>
@@ -133,12 +135,17 @@
                         <dt><label>Do you want to receive regular updates from us?</label></dt>
                         <dd>
                             
-                            <input name = "updateChecker" type="radio" id="button1" name="yesOrNo" value="Yes">
+                            <input name = "updateChecker" type="radio" id="button1" value="Yes">
                             <label for="button1">Yes</label>
 
-                            <input name = "updateChecker" type="radio" id="button2" name="yesOrNo" value="No">
+                            <input name = "updateChecker" type="radio" id="button2" value="No">
                             <label for="button2">No</label>
                             
+                        </dd>
+
+                        <dt><label>Would you like us to contact you on a certain day?</label></dt>
+                        <dd>
+                            <input name = "contactDate" type = "date">
                         </dd>
 
                         <dt><label>Coding Experience</label></dt>
@@ -168,5 +175,7 @@
         </footer>
     
     </main>
+
     </body>
+
 </html>

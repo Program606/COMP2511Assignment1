@@ -6,10 +6,20 @@ table, th, td{
 }
 
 table{
+
     width:98.5%;
     margin:15px;
-    margin-right: 15px;
    
+}
+
+.captionTable{
+
+font-weight: bold;
+
+}
+
+tr:nth-child(n){
+    background-color: #d2e9de;
 }
 
 tr:nth-child(2n){
@@ -104,6 +114,6 @@ p::first-letter{
     /* size: 10em; */
 }
 
-a[href*="#Graph"]{
+a[href*="#codeTable"]{
     color: beige;
 }
