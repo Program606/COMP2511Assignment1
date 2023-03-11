@@ -123,4 +123,13 @@ footer{
   text-align: center;
 
 }
+/* For a Large Screen*/
+@media screen and (max-width: 590px) {
+}
+/* For a Medium Screen*/
+@media screen and (max-width: 790px) {
+}
+/* For a Small Screen*/
+@media screen and (min-width: 791px) {
+}
 
